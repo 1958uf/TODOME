@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(D:/xuquanqing/software/xqqminiforge/envs/agentxqq/python.exe -m pip install python-dotenv -q)",
+      "Bash(D:/xuquanqing/software/xqqminiforge/envs/agentxqq/python.exe -c \"from dotenv import load_dotenv; import os; load_dotenv\\(\\); key=os.getenv\\('NVIDIA_API_KEY'\\); print\\('✅ Key 加载成功：', key[:12]+'...' if key else '❌ 未找到'\\)\")",
+      "Bash(D:/xuquanqing/software/xqqminiforge/envs/agentxqq/python.exe -c \"from dotenv import load_dotenv; import os; load_dotenv\\(\\); key=os.getenv\\('NVIDIA_API_KEY'\\); print\\('Key loaded:', key[:12]+'...' if key else 'NOT FOUND'\\)\")"
+    ]
+  }
+}
