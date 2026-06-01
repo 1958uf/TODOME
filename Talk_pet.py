@@ -13,13 +13,16 @@ from datetime import datetime
 from typing import Optional, Literal
 from openai import OpenAI
 from pydantic import BaseModel
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ============================================================
 # API 客户端配置
 # ============================================================
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key=os.getenv("NVIDIA_API_KEY", "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")
+    api_key=os.getenv("NVIDIA_API_KEY")
 )
 
 # 颜色主题（深蓝暗色系）
