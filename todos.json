@@ -9,5 +9,13 @@
       "开发",
       "测试"
     ]
+  },
+  "todo_002": {
+    "id": "todo_002",
+    "title": "nvidia文档",
+    "priority": "medium",
+    "status": "pending",
+    "created_at": "2026-06-01T13:13:05.194737",
+    "tags": []
   }
 }
